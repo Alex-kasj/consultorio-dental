@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Consultorio dental - Atención odontológica profesional.">
+
+    <title>Consultorio Dental</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header class="header">
+
+        <div class="container header-container">
+
+            <a href="#inicio" class="logo">
+                Consultorio Dental
+            </a>
+
+            <nav class="nav">
+
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#contacto">Contacto</a>
+
+                <a href="#citas" class="nav-button">
+                    Reservar cita
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section id="inicio" class="hero">
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <span class="hero-tag">
+                        Atención odontológica profesional
+                    </span>
+
+                    <h1>
+                        Una sonrisa saludable
+                        comienza aquí.
+                    </h1>
+
+                    <p>
+                        Brindamos atención odontológica personalizada
+                        para cuidar tu salud y mejorar tu sonrisa.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#citas" class="button primary-button">
+                            Solicitar una cita
+                        </a>
+
+                        <a href="#servicios" class="button secondary-button">
+                            Ver servicios
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-image">
+
+                    <div class="image-placeholder">
+                        Foto del consultorio
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SERVICIOS
+        ========================== -->
+
+        <section id="servicios" class="section">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <span class="section-tag">
+                        Nuestros servicios
+                    </span>
+
+                    <h2>
+                        Cuidado dental integral
+                    </h2>
+
+                    <p>
+                        Tratamientos pensados para cuidar tu salud
+                        bucal y mantener tu sonrisa.
+                    </p>
+
+                </div>
+
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            🦷
+                        </div>
+
+                        <h3>
+                            Consulta odontológica
+                        </h3>
+
+                        <p>
+                            Evaluación y diagnóstico personalizado
+                            para determinar el tratamiento adecuado.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            ✨
+                        </div>
+
+                        <h3>
+                            Limpieza dental
+                        </h3>
+
+                        <p>
+                            Limpieza profesional para mantener
+                            una correcta salud bucal.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            😁
+                        </div>
+
+                        <h3>
+                            Blanqueamiento
+                        </h3>
+
+                        <p>
+                            Tratamientos orientados a mejorar
+                            el aspecto de tu sonrisa.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            🩺
+                        </div>
+
+                        <h3>
+                            Restauraciones
+                        </h3>
+
+                        <p>
+                            Tratamientos para recuperar la función
+                            y estética de tus dientes.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             NOSOTROS
+        ========================== -->
+
+        <section id="nosotros" class="section about-section">
+
+            <div class="container about-container">
+
+                <div class="about-image">
+
+                    <div class="image-placeholder">
+                        Foto de la doctora
+                    </div>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <span class="section-tag">
+                        Sobre nosotros
+                    </span>
+
+                    <h2>
+                        Atención cercana y profesional
+                    </h2>
+
+                    <p>
+                        Nuestro objetivo es brindar una atención
+                        odontológica de calidad, basada en la confianza,
+                        el cuidado y la atención personalizada.
+                    </p>
+
+                    <p>
+                        Cada paciente recibe una evaluación de acuerdo
+                        con sus necesidades para encontrar la mejor
+                        alternativa de tratamiento.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CITAS
+        ========================== -->
+
+        <section id="citas" class="section appointment-section">
+
+            <div class="container appointment-container">
+
+                <div class="section-header">
+
+                    <span class="section-tag">
+                        Agenda tu cita
+                    </span>
+
+                    <h2>
+                        Solicita una cita
+                    </h2>
+
+                    <p>
+                        Completa el siguiente formulario y nos
+                        pondremos en contacto contigo para confirmar
+                        la disponibilidad.
+                    </p>
+
+                </div>
+
+
+                <form id="appointment-form" class="appointment-form">
+
+
+                    <div class="form-group">
+
+                        <label for="paciente">
+                            Nombre completo
+                        </label>
+
+                        <input
+                            type="text"
+                            id="paciente"
+                            name="paciente"
+                            placeholder="Ej. María Pérez"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="telefono">
+                            Teléfono / WhatsApp
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="telefono"
+                            name="telefono"
+                            placeholder="Ej. 987654321"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="servicio">
+                            Servicio
+                        </label>
+
+                        <select
+                            id="servicio"
+                            name="servicio"
+                            required
+                        >
+
+                            <option value="">
+                                Selecciona un servicio
+                            </option>
+
+                            <option value="Consulta odontológica">
+                                Consulta odontológica
+                            </option>
+
+                            <option value="Limpieza dental">
+                                Limpieza dental
+                            </option>
+
+                            <option value="Blanqueamiento">
+                                Blanqueamiento
+                            </option>
+
+                            <option value="Restauración">
+                                Restauración
+                            </option>
+
+                            <option value="Otro">
+                                Otro
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="fechaCita">
+                                Fecha preferida
+                            </label>
+
+                            <input
+                                type="date"
+                                id="fechaCita"
+                                name="fechaCita"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="hora">
+                                Hora preferida
+                            </label>
+
+                            <input
+                                type="time"
+                                id="hora"
+                                name="hora"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="observaciones">
+                            Observaciones
+                        </label>
+
+                        <textarea
+                            id="observaciones"
+                            name="observaciones"
+                            rows="4"
+                            placeholder="¿Hay algo que debamos saber?"
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="button primary-button submit-button"
+                    >
+                        Solicitar cita
+                    </button>
+
+
+                    <p
+                        id="form-message"
+                        class="form-message"
+                    ></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACTO
+        ========================== -->
+
+        <section id="contacto" class="section contact-section">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <span class="section-tag">
+                        Contacto
+                    </span>
+
+                    <h2>
+                        Estamos para ayudarte
+                    </h2>
+
+                </div>
+
+
+                <div class="contact-grid">
+
+                    <div class="contact-item">
+
+                        <h3>
+                            📍 Ubicación
+                        </h3>
+
+                        <p>
+                            Dirección del consultorio
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <h3>
+                            📱 WhatsApp
+                        </h3>
+
+                        <p>
+                            +51 999 999 999
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <h3>
+                            🕐 Horarios
+                        </h3>
+
+                        <p>
+                            Lunes - Viernes<br>
+                            9:00 AM - 7:00 PM
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+                © 2026 Consultorio Dental.
+                Todos los derechos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
